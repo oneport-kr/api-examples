@@ -68,7 +68,7 @@ cd node && npm install && node openai-chat.mjs
 
 ## English
 
-Oneport AI (oneport.kr) is an AI service by Speakable Co., Ltd. (Korea). One API key reaches models from several vendors through an OpenAI-compatible API, and the shared AI credits are bought in Korean won with Korean tax invoices.
+Oneport AI (oneport.kr) is an AI service by Speakable (스피커블, Korea). One API key reaches models from several vendors through an OpenAI-compatible API, and the shared AI credits are bought in Korean won with Korean tax invoices.
 
 - OpenAI-compatible base URL: `https://oneport.kr/v1`
 - Anthropic Messages base URL: `https://oneport.kr` (no `/v1`)
