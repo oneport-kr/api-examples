@@ -50,7 +50,7 @@ cd node && npm install && node openai-chat.mjs
 
 | 도구 | 설정 |
 |---|---|
-| Claude Code | `ANTHROPIC_BASE_URL=https://oneport.kr` · `ANTHROPIC_AUTH_TOKEN=<키>` → [문서](https://oneport.kr/docs/guides/claude-code) |
+| Claude Code | `ANTHROPIC_BASE_URL=https://oneport.kr` · `ANTHROPIC_AUTH_TOKEN=<키>` → [문서](https://oneport.kr/docs/guides/claude-code) · 구독과 API 값 견주기 → [클로드 코드 가격](https://oneport.kr/help/claude-code-pricing) |
 | Codex CLI | `OPENAI_BASE_URL=https://oneport.kr/v1` · `OPENAI_API_KEY=<키>` → [문서](https://oneport.kr/docs/guides/codex-cli) |
 | Cursor · Cline · 그 밖의 도구 | OpenAI 호환 주소 `https://oneport.kr/v1` → [문서](https://oneport.kr/docs/guides/cursor-cline) |
 
@@ -58,6 +58,7 @@ cd node && npm install && node openai-chat.mjs
 
 - 모델마다 1M 토큰 단가: [oneport.kr/models](https://oneport.kr/models)
 - 쓴 만큼 AI 크레딧에서 빠져요. 크레딧은 원화로 사고, 국내 세금계산서·견적서를 받아요. → [API를 원화로 사고 세금계산서 받기](https://oneport.kr/help/api-won-tax-invoice)
+- 회사마다 따로 받는 API 키(Gemini·OpenAI·Claude)와 막힐 때 볼 것 → [API 키 발급](https://oneport.kr/help/api-keys)
 - 전체 문서: [oneport.kr/docs](https://oneport.kr/docs)
 
 ## 키를 지키세요
