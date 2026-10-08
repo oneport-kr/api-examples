@@ -58,8 +58,17 @@ cd node && npm install && node openai-chat.mjs
 
 - 모델마다 1M 토큰 단가: [oneport.kr/models](https://oneport.kr/models)
 - 쓴 만큼 AI 크레딧에서 빠져요. 크레딧은 원화로 사고, 국내 세금계산서·견적서를 받아요. → [API를 원화로 사고 세금계산서 받기](https://oneport.kr/help/api-won-tax-invoice)
+- 제공사별 해외 카드 결제·충전 계단·무료 등급 비교 → [Claude API 결제](https://oneport.kr/help/claude-api-payment) · [OpenAI API 결제](https://oneport.kr/help/openai-api-billing) · [Gemini API 과금](https://oneport.kr/help/gemini-api-billing)
 - 회사마다 따로 받는 API 키(Gemini·OpenAI·Claude)와 막힐 때 볼 것 → [API 키 발급](https://oneport.kr/help/api-keys)
 - 전체 문서: [oneport.kr/docs](https://oneport.kr/docs)
+
+## 웹 대화방·학교/기관 크레딧·문서 작업
+
+같은 AI 크레딧을 코드(API)뿐 아니라 웹 대화방(`oneport.kr/chat`)에서도 그대로 써요.
+
+- ChatGPT·Claude·Gemini를 한 화면에서 나란히 비교하고 골라 쓰기 (개별 구독과 크레딧 차이 · 가입 즉시 1 크레딧 체험) → [멀티 AI 작업공간](https://oneport.kr/help/multi-ai-workspace)
+- 학교·대학·기관에서 학생·구성원에게 AI 크레딧을 인당 한도로 나눠 주고 학기 말에 회수하기 (원화 세금계산서·학교장터 S2B) → [학교·학급·기관 AI 크레딧 배분](https://oneport.kr/help/school-class-ai-credits)
+- 아래아한글(`.hwp`·`.hwpx`)·PDF·워드 문서를 올려 여러 AI 모델로 초안 잡고 비교하기 → [한글(HWP)·PDF 문서 AI 작업](https://oneport.kr/help/hwp-document-ai)
 
 ## 키를 지키세요
 
@@ -69,12 +78,13 @@ cd node && npm install && node openai-chat.mjs
 
 ## English
 
-Oneport AI (oneport.kr) is an AI service by Speakable (스피커블, Korea). One API key reaches models from several vendors through an OpenAI-compatible API, and the shared AI credits are bought in Korean won with Korean tax invoices.
+Oneport AI (oneport.kr) is an AI service by Speakable (스피커블, Korea). One API key reaches models from several vendors through an OpenAI-compatible API, and the shared AI credits are bought in Korean won with Korean tax invoices (and S2B school marketplace billing for Korean schools). The same credit wallet also powers a multi-AI web workspace (`oneport.kr/chat`) with per-member credit allocation and Korean HWP/PDF document workflows.
 
 - OpenAI-compatible base URL: `https://oneport.kr/v1`
 - Anthropic Messages base URL: `https://oneport.kr` (no `/v1`)
 - Model list without a key: `curl https://oneport.kr/v1/models`
 - Docs (Korean): [oneport.kr/docs](https://oneport.kr/docs)
+- Help guides (Korean): [Multi-AI Workspace](https://oneport.kr/help/multi-ai-workspace) · [School & Institutional AI Credits](https://oneport.kr/help/school-class-ai-credits) · [HWP & PDF Document AI](https://oneport.kr/help/hwp-document-ai)
 
 ## License
 
