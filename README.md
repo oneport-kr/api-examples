@@ -11,7 +11,7 @@
 
 ## 시작하기
 
-1. 키를 만들어요. 대시보드의 AI API 화면에서 만들고, 만든 키는 그 자리에서 한 번만 보여요. → [인증 문서](https://oneport.kr/docs/authentication)
+1. 키를 만들어요. 대시보드의 AI API 화면에서 만들고, 만든 키는 그 자리에서 한 번만 보여요. → [인증 문서](https://oneport.kr/docs/authentication?utm_source=github&utm_medium=readme)
 2. 키를 환경변수로 둬요. 코드나 저장소에 적지 마세요.
 
    ```bash
@@ -50,25 +50,25 @@ cd node && npm install && node openai-chat.mjs
 
 | 도구 | 설정 |
 |---|---|
-| Claude Code | `ANTHROPIC_BASE_URL=https://oneport.kr` · `ANTHROPIC_AUTH_TOKEN=<키>` → [문서](https://oneport.kr/docs/guides/claude-code) · 구독과 API 값 견주기 → [클로드 코드 가격](https://oneport.kr/help/claude-code-pricing) |
-| Codex CLI | `OPENAI_BASE_URL=https://oneport.kr/v1` · `OPENAI_API_KEY=<키>` → [문서](https://oneport.kr/docs/guides/codex-cli) |
-| Cursor · Cline · 그 밖의 도구 | OpenAI 호환 주소 `https://oneport.kr/v1` → [문서](https://oneport.kr/docs/guides/cursor-cline) |
+| Claude Code | `ANTHROPIC_BASE_URL=https://oneport.kr` · `ANTHROPIC_AUTH_TOKEN=<키>` → [문서](https://oneport.kr/docs/guides/claude-code?utm_source=github&utm_medium=readme) · 구독과 API 값 견주기 → [클로드 코드 가격](https://oneport.kr/help/claude-code-pricing?utm_source=github&utm_medium=readme) |
+| Codex CLI | `OPENAI_BASE_URL=https://oneport.kr/v1` · `OPENAI_API_KEY=<키>` → [문서](https://oneport.kr/docs/guides/codex-cli?utm_source=github&utm_medium=readme) |
+| Cursor · Cline · 그 밖의 도구 | OpenAI 호환 주소 `https://oneport.kr/v1` → [문서](https://oneport.kr/docs/guides/cursor-cline?utm_source=github&utm_medium=readme) |
 
 ## 값과 결제
 
-- 모델마다 1M 토큰 단가: [oneport.kr/models](https://oneport.kr/models)
-- 쓴 만큼 AI 크레딧에서 빠져요. 크레딧은 원화로 사고, 국내 세금계산서·견적서를 받아요. → [API를 원화로 사고 세금계산서 받기](https://oneport.kr/help/api-won-tax-invoice)
-- 제공사별 해외 카드 결제·충전 계단·무료 등급 비교 → [Claude API 결제](https://oneport.kr/help/claude-api-payment) · [OpenAI API 결제](https://oneport.kr/help/openai-api-billing) · [Gemini API 과금](https://oneport.kr/help/gemini-api-billing)
-- 회사마다 따로 받는 API 키(Gemini·OpenAI·Claude)와 막힐 때 볼 것 → [API 키 발급](https://oneport.kr/help/api-keys)
-- 전체 문서: [oneport.kr/docs](https://oneport.kr/docs)
+- 모델마다 100만 토큰당 크레딧 단가: [oneport.kr/models](https://oneport.kr/models?utm_source=github&utm_medium=readme)
+- 쓴 만큼 AI 크레딧에서 빠져요. 1 크레딧은 부가세 포함 2원어치예요. 크레딧은 원화로 사고, 국내 세금계산서·견적서를 받아요. → [API를 원화로 사고 세금계산서 받기](https://oneport.kr/help/api-won-tax-invoice?utm_source=github&utm_medium=readme)
+- 제공사별 해외 카드 결제·충전 계단·무료 등급 비교 → [Claude API 결제](https://oneport.kr/help/claude-api-payment?utm_source=github&utm_medium=readme) · [OpenAI API 결제](https://oneport.kr/help/openai-api-billing?utm_source=github&utm_medium=readme) · [Gemini API 과금](https://oneport.kr/help/gemini-api-billing?utm_source=github&utm_medium=readme)
+- 회사마다 따로 받는 API 키(Gemini·OpenAI·Claude)와 막힐 때 볼 것 → [API 키 발급](https://oneport.kr/help/api-keys?utm_source=github&utm_medium=readme)
+- 전체 문서: [oneport.kr/docs](https://oneport.kr/docs?utm_source=github&utm_medium=readme)
 
-## 웹 대화방·학교/기관 크레딧·문서 작업
+## 웹 채팅·학교/기관 크레딧·문서 작업
 
-같은 AI 크레딧을 코드(API)뿐 아니라 웹 대화방(`oneport.kr/chat`)에서도 그대로 써요.
+같은 AI 크레딧을 코드(API)뿐 아니라 웹 채팅(`oneport.kr/ai`)에서도 그대로 써요.
 
-- ChatGPT·Claude·Gemini를 한 화면에서 나란히 비교하고 골라 쓰기 (개별 구독과 크레딧 차이 · 가입 즉시 1 크레딧 체험) → [멀티 AI 작업공간](https://oneport.kr/help/multi-ai-workspace)
-- 학교·대학·기관에서 학생·구성원에게 AI 크레딧을 인당 한도로 나눠 주고 학기 말에 회수하기 (원화 세금계산서·학교장터 S2B) → [학교·학급·기관 AI 크레딧 배분](https://oneport.kr/help/school-class-ai-credits)
-- 아래아한글(`.hwp`·`.hwpx`)·PDF·워드 문서를 올려 여러 AI 모델로 초안 잡고 비교하기 → [한글(HWP)·PDF 문서 AI 작업](https://oneport.kr/help/hwp-document-ai)
+- ChatGPT·Claude·Gemini를 한 화면에서 나란히 비교하고 골라 쓰기 (개별 구독과 크레딧 차이 · 새로 가입하면 1,000 크레딧, 하루 선착순 상한 안) → [멀티 AI 작업공간](https://oneport.kr/help/multi-ai-workspace?utm_source=github&utm_medium=readme)
+- 학교·대학·기관에서 학생·구성원에게 AI 크레딧을 인당 한도로 나눠 주고 학기 말에 회수하기 (원화 세금계산서·학교장터 S2B) → [학교·학급·기관 AI 크레딧 배분](https://oneport.kr/help/school-class-ai-credits?utm_source=github&utm_medium=readme)
+- 아래아한글(`.hwp`·`.hwpx`)·PDF·워드 문서를 올려 여러 AI 모델로 초안 잡고 비교하기 → [한글(HWP)·PDF 문서 AI 작업](https://oneport.kr/help/hwp-document-ai?utm_source=github&utm_medium=readme)
 
 ## 키를 지키세요
 
@@ -78,13 +78,13 @@ cd node && npm install && node openai-chat.mjs
 
 ## English
 
-Oneport AI (oneport.kr) is an AI service by Speakable (스피커블, Korea). One API key reaches models from several vendors through an OpenAI-compatible API, and the shared AI credits are bought in Korean won with Korean tax invoices (and S2B school marketplace billing for Korean schools). The same credit wallet also powers a multi-AI web workspace (`oneport.kr/chat`) with per-member credit allocation and Korean HWP/PDF document workflows.
+Oneport AI (oneport.kr) is an AI service by Speakable (스피커블, Korea). One API key reaches models from several vendors through an OpenAI-compatible API, and the shared AI credits are bought in Korean won (1 credit = KRW 2, VAT included) with Korean tax invoices (and S2B school marketplace billing for Korean schools). The same credit wallet also powers a multi-AI web workspace (`oneport.kr/ai`) with per-member credit allocation and Korean HWP/PDF document workflows.
 
 - OpenAI-compatible base URL: `https://oneport.kr/v1`
 - Anthropic Messages base URL: `https://oneport.kr` (no `/v1`)
 - Model list without a key: `curl https://oneport.kr/v1/models`
-- Docs (Korean): [oneport.kr/docs](https://oneport.kr/docs)
-- Help guides (Korean): [Multi-AI Workspace](https://oneport.kr/help/multi-ai-workspace) · [School & Institutional AI Credits](https://oneport.kr/help/school-class-ai-credits) · [HWP & PDF Document AI](https://oneport.kr/help/hwp-document-ai)
+- Docs (Korean): [oneport.kr/docs](https://oneport.kr/docs?utm_source=github&utm_medium=readme)
+- Help guides (Korean): [Multi-AI Workspace](https://oneport.kr/help/multi-ai-workspace?utm_source=github&utm_medium=readme) · [School & Institutional AI Credits](https://oneport.kr/help/school-class-ai-credits?utm_source=github&utm_medium=readme) · [HWP & PDF Document AI](https://oneport.kr/help/hwp-document-ai?utm_source=github&utm_medium=readme)
 
 ## License
 
